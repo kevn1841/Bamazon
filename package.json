@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevn1841/Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevn1841/Bamazon/issues"
+  },
+  "homepage": "https://github.com/kevn1841/Bamazon#readme",
+  "devDependencies": {
+    "inquirer": "^1.1.3",
+    "mysql": "^2.11.1"
+  }
+}
