@@ -18,11 +18,10 @@ connection.connect(function(err){
 	function createListing(){
 	connection.query('SELECT * FROM forsale',function(err,res){
 		if(err)throw err;
-		var tab="\t";
-		console.log("id\tproduct\tdepartmentField\tprice\tquantity");
+		console.log("id" + "\tproduct" + "\tdepartmentField" + "\tprice" + "\tquantity")
 		console.log("========================================================");
 		for(var i=0;i<res.length;i++){
-			console.log(res[i].id+tab+res[i].product+tab+res[i].departmentField+tab+res[i].price+tab+res[i].quantity+'\n'+'\n');}
+			console.log(res[i].id+'\t'+res[i].product+'\t'+res[i].departmentField+'\t'+res[i].price+'\t'+res[i].quantity+'\n'+'\n');}
 		console.log("========================================================");
 		promptCustomer(res);})}
 
