@@ -1,3 +1,4 @@
 # Bamazon
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Screen shot 1](ss1.png)
+![Screen shot 2](ss2.png)
